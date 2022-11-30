@@ -18,7 +18,7 @@ return
 SetWorkingDir, %A_ScriptDir%
 ^+s::
 send,{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}
-send,Server{+}{Enter}
+send,Server{+}{Enter} ; PUT COURSE YOU WANT HERE
 sleep, 5000
 send,{Tab}{Tab}{Tab}{Tab}{Tab}{Enter}
 sleep, 5000
