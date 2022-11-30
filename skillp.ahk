@@ -5,7 +5,7 @@ SetWorkingDir, %A_ScriptDir%
 Send,^+n
 Send,usarmy.skillport.com {Enter}
 sleep, 2000
-send, {Tab}{Space}{Tab}
+send, {Tab}{Space}{tab}{Tab}
 sendraw, a ; PUT SKILLPORT EMAIL HERE
 send,{Tab}
 sendraw, a ; PUT SKILLPORT PASSWORD HERE
