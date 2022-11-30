@@ -14,7 +14,7 @@ sleep, 1000
 send,{Enter}
 sleep, 13000
 return
-
+; a
 SetWorkingDir, %A_ScriptDir%
 ^+s::
 send,{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}
